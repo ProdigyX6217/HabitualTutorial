@@ -16,6 +16,7 @@
                 <outlet property="markCompletedButton" destination="uW2-Ah-3od" id="yeW-zz-H9s"/>
                 <outlet property="startDateLabel" destination="yfn-9S-YBk" id="vah-I4-GMD"/>
                 <outlet property="totalCompletionsLabel" destination="lu5-Ra-UC8" id="DVV-MK-a9u"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="DRj-yP-OpK"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
