@@ -12,7 +12,7 @@
             <connections>
                 <outlet property="bestStreakLabel" destination="Lt5-Qs-5jw" id="8dJ-21-eds"/>
                 <outlet property="currentStreakLabel" destination="eo6-Vd-aZQ" id="a04-2a-1LG"/>
-                <outlet property="iconImageView" destination="FWp-EB-c6T" id="OBz-yN-8q4"/>
+                <outlet property="imageViewIcon" destination="FWp-EB-c6T" id="0O3-Ov-0Gu"/>
                 <outlet property="markCompletedButton" destination="uW2-Ah-3od" id="yeW-zz-H9s"/>
                 <outlet property="startDateLabel" destination="yfn-9S-YBk" id="vah-I4-GMD"/>
                 <outlet property="totalCompletionsLabel" destination="lu5-Ra-UC8" id="DVV-MK-a9u"/>
@@ -36,15 +36,15 @@
                         <action selector="markCompletedButton:" destination="-1" eventType="touchUpInside" id="P0V-8T-jiP"/>
                     </connections>
                 </button>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Current Streak" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qiM-Rs-WDa">
-                    <rect key="frame" x="150" y="489.5" width="114" height="20.5"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <nil key="textColor"/>
-                    <nil key="highlightedColor"/>
-                </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0 Days" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eo6-Vd-aZQ">
                     <rect key="frame" x="100" y="421.5" width="214" height="48"/>
                     <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Current Streak" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qiM-Rs-WDa">
+                    <rect key="frame" x="150" y="489.5" width="114" height="20.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>

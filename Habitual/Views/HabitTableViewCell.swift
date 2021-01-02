@@ -10,7 +10,7 @@ import UIKit
 
 class HabitTableViewCell: UITableViewCell {
 
-    @IBOutlet weak var iconImageView: UIImageView!
+    @IBOutlet weak var imageViewIcon: UIImageView!
     @IBOutlet weak var labelHabitTitle: UILabel!
     @IBOutlet weak var labelStreaks: UILabel!
     
@@ -34,7 +34,7 @@ class HabitTableViewCell: UITableViewCell {
     }
     
     func configure(_ habit: Habit) {
-        self.iconImageView.image=habit.selectedImage.image
+        self.imageViewIcon.image=habit.selectedImage.image
         self.labelHabitTitle.text=habit.title
         self.labelStreaks.text = "streak: \(habit.currentStreak)"
         

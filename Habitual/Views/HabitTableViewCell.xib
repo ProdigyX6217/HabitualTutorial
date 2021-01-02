@@ -50,7 +50,7 @@
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
-                <outlet property="imageViewIcon" destination="hrJ-o5-PI8" id="WEq-1O-B9D"/>
+                <outlet property="imageViewIcon" destination="hrJ-o5-PI8" id="3xl-fb-dyY"/>
                 <outlet property="labelHabitTitle" destination="gyA-eV-UDB" id="Ean-o1-kWb"/>
                 <outlet property="labelStreaks" destination="kjf-BP-P4v" id="STM-RB-yCD"/>
             </connections>
